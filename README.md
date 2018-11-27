@@ -5,8 +5,8 @@ The Dockerfile builds and starts a Nexus repository and configures the JBoss Ent
 ### Usage - Pull Image from Docker Hub
 
 ```
-docker pull ambient-docker/docker-nexus 
-docker run -d -p 8081:8081 ambient-docker/docker-nexus
+docker pull ambientdocker/docker-nexus 
+docker run -d -p 8081:8081 ambientdocker/docker-nexus
 ```
 
 ### Usage - Build manually
